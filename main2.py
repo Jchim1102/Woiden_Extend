@@ -15,5 +15,6 @@ driver_chrome = uc.Chrome(version_main=107,options=options)
 # driver = uc.Chrome()
 
 # go to website which have recaptcha protection
-driver_chrome.get('https://www.baidu.com')
-print(driver.page_source)
+
+#driver_chrome.get('https://www.baidu.com')
+#print(driver_chrome.page_source)
