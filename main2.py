@@ -13,7 +13,7 @@ options.add_argument('--incognito')
 # driver = webdriver.Chrome(executable_path=diffPlatformDriverPath(), options=Options)
 driver_chrome = uc.Chrome(version_main=107,options=options)
 # driver = uc.Chrome()
-delay()
+
 # go to website which have recaptcha protection
 driver_chrome.get('https://woiden.id/login')
 print(driver.page_source)
