@@ -9,7 +9,7 @@ options.add_argument('--incognito')
 # options.add_argument('--disable-dev-shm-usage')
 
 # driver = webdriver.Chrome(executable_path=diffPlatformDriverPath(), options=Options)
-driver_chrome = uc.Chrome(version_main=105,options=options)
+driver_chrome = uc.Chrome(version_main=107,options=options)
 # driver = uc.Chrome()
 delay()
 # go to website which have recaptcha protection
