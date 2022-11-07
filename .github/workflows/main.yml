@@ -1,7 +1,8 @@
 name: 'WoidenExtend'
 
 on:
-  #push:
+  push:
+    branches: [ main ]
   schedule:
     # run every 2 days on UTC 1/2/3am (9/10/11am CN time)
      - cron: '46 1,4,7,10,13,16,19,21,0 */1 * *'
