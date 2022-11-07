@@ -1,3 +1,5 @@
+import undetected_chromedriver as uc
+
 options = uc.ChromeOptions()
 # 浏览器不提供可视化界面
 # options.add_argument('--headless')
@@ -13,4 +15,5 @@ driver_chrome = uc.Chrome(version_main=107,options=options)
 # driver = uc.Chrome()
 delay()
 # go to website which have recaptcha protection
-driver_chrome.get('https://www.baidu.com')
+driver_chrome.get('https://woiden.id/login')
+print(driver.page_source)
